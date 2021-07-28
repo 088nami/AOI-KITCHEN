@@ -166,7 +166,7 @@ section {
 }
 
 .access .access-group .access-main {
-  
+  display: flex;
 }
 
 .access .access-group .access-main .access-img {
@@ -222,22 +222,63 @@ section {
   width: 1000px;
   margin: 0 auto;
 }
+
 /*予約*/
-.reserve h2{
+
+.reserve h2 {
   text-align: center;
 }
-.reserve .lead{
+
+.reserve .lead {
   text-align: center;
   margin-bottom: 70px;
 }
-.reserve form{
-display: flex;
-justify-content: center;
-width: 670px;
+
+.reserve form {
+  display: flex;
+  justify-content: center;
 }
-.reserve{
+
+.reserve {
   background-color: rgb(0, 64, 97);
 }
-.reserve .title{
+
+.reserve th {
   display: flex;
+}
+.reserve td .date{
+  display: flex;
+
+}
+
+
+
+.reserve .people {
+  margin-left: 50px;
+}
+
+.reserve .title {
+  display: flex;
+  width: 120px;
+}
+.request .people{
+  float: left;
+}
+
+.reserve .required {
+  margin-left: 20px;
+  display: flex;
+  width: 50px;
+  flex-flow: column;
+}
+.reserve .frame{
+width: 450px;
+}
+.request_frame{
+  width: 450px;
+  height: 95px;
+}
+
+ .people{
+  float: left;
 }
