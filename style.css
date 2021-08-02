@@ -54,10 +54,6 @@ header.header-group .btn a {
   text-decoration: none;
 }
 
-section {
-  padding: 54px;
-}
-
 .container {
   position: relative;
   width: 1400px;
@@ -80,6 +76,10 @@ section {
 }
 
 /*メニュー*/
+
+.menu {
+  padding: 103px 0px 120px;
+}
 
 .menu h2 {
   text-align: center;
@@ -157,12 +157,13 @@ section {
 /*アクセス*/
 
 .access {
-  height: 674px;
+  padding: 103px 0px 120px;
   background-color: rgb(216, 227, 234);
 }
 
 .access .access-group h2 {
   text-align: center;
+  padding-bottom: 70px;
 }
 
 .access .access-group .access-main {
@@ -183,7 +184,8 @@ section {
 }
 
 .access .access-group .access-main {
-  margin: 70px;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 /*クーポン*/
@@ -246,12 +248,10 @@ section {
 .reserve th {
   display: flex;
 }
-.reserve td .date{
+
+.reserve td .date {
   display: flex;
-
 }
-
-
 
 .reserve .people {
   margin-left: 50px;
@@ -261,7 +261,8 @@ section {
   display: flex;
   width: 120px;
 }
-.request .people{
+
+.request .people {
   float: left;
 }
 
@@ -271,14 +272,16 @@ section {
   width: 50px;
   flex-flow: column;
 }
-.reserve .frame{
-width: 450px;
+
+.reserve .frame {
+  width: 450px;
 }
-.request_frame{
+
+.request_frame {
   width: 450px;
   height: 95px;
 }
 
- .people{
+.people {
   float: left;
 }
