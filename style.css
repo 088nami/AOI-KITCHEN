@@ -154,7 +154,7 @@ header.header-group .btn a {
   opacity: 0.7;
 }
 
-/*アクセス*/
+/*アクセス 文章*/
 
 .access {
   padding: 103px 0px 120px;
@@ -173,7 +173,7 @@ header.header-group .btn a {
 .access .access-group .access-main .access-img {
   display: block;
 }
-
+/*アクセス 文章*/
 .access .access-group dl {
   color: black;
   margin-left: 60px;
@@ -183,9 +183,18 @@ header.header-group .btn a {
   font-weight: bold;
 }
 
-.access .access-group .access-main {
-  width: 1000px;
-  margin: 0 auto;
+.access .access-group .access-main a{
+ float: right;
+ text-decoration: none;
+ 
+}
+
+.access-map a{
+ float: right;
+ margin-top: 20px;
+ color: rgb(0, 64, 97);
+ font-weight: bold;
+ font-size: 14px;
 }
 
 /*クーポン*/
