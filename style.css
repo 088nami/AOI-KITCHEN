@@ -89,7 +89,9 @@ header.header-group .btn a {
 .menu .lead {
   text-align: center;
   margin: 70px;
+  
 }
+
 
 .menu .contents {
   align-items: center;
@@ -129,7 +131,19 @@ header.header-group .btn a {
   letter-spacing: -0.1em;
   font-weight: bold;
   margin-bottom: 45px;
+  position: relative;
 }
+
+.menu .menu-lead ::after{
+  content: '';
+  width: 30px;
+  height: 50px;
+  color: rgb(225, 183, 13);
+  position: absolute;
+  bottom: 20px;
+}
+
+
 
 .menu .menu-btn {
   display: block;
@@ -187,6 +201,8 @@ header.header-group .btn a {
 
 .access .access-group .access-main {
   display: flex;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .access .access-group .access-main .access-img {
@@ -200,6 +216,10 @@ header.header-group .btn a {
 
 .access .access-group dt {
   font-weight: bold;
+  margin-bottom: 15px;
+}
+.access .access-group dd {
+  margin-bottom: 10px;
 }
 
 .access .access-group .access-main a{
@@ -214,10 +234,25 @@ header.header-group .btn a {
  color: rgb(0, 64, 97);
  font-weight: bold;
  font-size: 14px;
+ position: relative;
 }
+.access-map ::after{
+  content:'';
+  width: 6px;
+  height: 6px;
+  margin-top: 20px;
+  border-top: solid 2px rgb(0, 64, 97);
+  border-right: solid 2px rgb(0, 64, 97);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  right:20px;
+  margin-top: -4px;
+ }
+
 
 /*クーポン*/
-
 .coupon h2 {
   text-align: center;
   padding-bottom: 65px;
