@@ -134,7 +134,7 @@ header.header-group .btn a {
   position: relative;
 }
 
-.menu .menu-lead ::after{
+.menu .menu-lead::after{
   content: '';
   width: 30px;
   height: 50px;
@@ -235,8 +235,9 @@ header.header-group .btn a {
  font-weight: bold;
  font-size: 14px;
  position: relative;
+ margin-right: 20px;
 }
-.access-map ::after{
+.access-map a::after{
   content:'';
   width: 6px;
   height: 6px;
@@ -247,8 +248,8 @@ header.header-group .btn a {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   position: absolute;
-  right:20px;
-  margin-top: -4px;
+  right:-20px;
+  margin-top: 3px;
  }
 
 
